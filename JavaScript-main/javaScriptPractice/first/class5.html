@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+         var a = 1;
+        
+        do{
+            document.write(a);
+            a++;
+        }while(a<=5);
+
+            // function fun1(){
+            //     document.getElementById("btn").style.backgroundColor="red";
+            //     document.getElementById("btn").style.width="100px";
+            //     document.getElementById("btn").style.height="100px";
+            //     document.getElementById("btn").style.transition="0.6s";
+            // }
+
+            // function fun2(){
+            //     document.getElementById("btn").style.background="blue";
+            //     document.getElementById("btn").style.width="50px";
+            //     document.getElementById("btn").style.height="50px";
+            //     document.getElementById("btn").style.transition="0.6s";
+            // }
+
+            function fun1(){
+                    document.getElementById("txt1").style.background="red";
+                    //document.getElementById("txt2").style.background="blue";
+            }
+            function fun2(){
+                    document.getElementById("txt2").style.background="green";
+                    //document.getElementById("txt2").style.background="yellow";
+            }
+
+    </script>
+
+</head>
+<body>
+    <!-- <input type="button" id="btn" value="Click" onmouseover="fun1()" onmouseout="fun2()"/> -->
+
+    <input type="text" id="txt1" onfocus="fun1()" onblur="fun2()"/>
+    <input type="text" id="txt2" onfocus="fun1()" onblur="fun2()"/>
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+Jira : - 
+# Break the big ideas down into manageable chunks across teams with user stories, issues, and tasks. 
+# Work becomes a lot more visible when it’s all in one place. It makes collaboration a whole lot easier. 

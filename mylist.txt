@@ -1,0 +1,202 @@
+/*public class newlist {
+    public void newlist()
+    {
+        list<integer> obj = new list<integer>();
+        obj.add(101);
+        obj.add(103);
+        obj.add(105);
+        obj.add(108);
+        obj.remove(0);
+        integer sum = 0;
+        for(integer o:obj)
+        {
+            sum= sum + o;
+        }
+        {
+            system.debug(sum);
+        }
+    }
+
+}
+*/
+/*
+public class newlist {
+    public void newlist()
+    {
+        list<string> obj = new list<string>();
+        obj.add('a');
+        obj.add('b');
+        obj.add('c');
+        obj.add('d');
+        obj.remove(0);
+        string sum = ' ';
+        for(string o:obj)
+        {
+            sum= sum + o;
+        }
+        {
+            system.debug(sum);
+        }
+    }
+}
+*/
+/*
+public class newlist {
+    public void newlist()
+    {
+        list<string> obj = new list<string>();
+        obj.add('a');
+        obj.add('b');
+        obj.add('c');
+        obj.add('d');
+        obj.remove(0);    	    						
+        for(string o:obj)
+        
+        {
+            system.debug(o);
+        }
+    }
+}
+*/
+/*
+public class newlist {
+    public void newlist()
+    {
+        
+List<String> colors = new List<String>{
+    'Yellow',
+    'Red',
+    'Green'};
+    
+    system.debug(colors);
+}
+}
+*/
+//wap a program to reverse a list 
+/*public class newlist {
+    public void newlist()
+    {
+        integer i,j,a;
+        list<integer> reverse= new list<integer>{10,20,30,40,50};
+        for (i=reverse.size()-1;i>=0; i--)
+        {
+            a=reverse[i];
+            system.debug('reverse order'+a);
+            
+        }
+    }
+}*/
+/*
+public class newlist {
+    public void newlist()
+    {
+        integer i,j,num;
+        list<integer> arrange = new list<integer>{10,210,310,100,5};
+            for(i=0;i<arrange.size();i++)
+        {
+             for(j=i+1;j<arrange.size();j++)
+            {
+                    if(arrange[i]>arrange[j]) // for ascending order
+                    {
+                       num = arrange[i];
+                       arrange[i]=arrange[j];
+                       arrange[j] = num;
+                    }
+            }
+           
+            system.debug(arrange[i]);
+        }        
+    }
+}
+*/
+/*
+public class newlist {
+    public void newlist()
+    {
+        integer i,j,num;
+        list<integer> arrange = new list<integer>{10,210,310,100,5};
+            for(i=0;i<arrange.size();i++)
+        {
+             for(j=i+1;j<arrange.size();j++)
+            {
+                    if(arrange[i]<arrange[j]) // for decending order
+                    {
+                       num = arrange[i];
+                       arrange[i]=arrange[j];
+                       arrange[j] = num;
+                    }
+            }
+           
+            system.debug(arrange[i]);
+        }        
+    }
+}*/
+/*
+public class newlist {
+    public void newlist()
+    {
+        integer a,b,c,i;
+        list<integer> list1 = new list<integer>{10,210,310};
+        list<integer> list2 = new list<integer>{18,14,11,13,16};
+             a=list1.size();
+             b=list2.size();
+             c=a+b;
+        list<integer>list3 = new integer[c];
+        for (i=0;i<=list1.size();i++)
+        {
+            list3[i]=list1[i];
+        }
+        for(i=0;i<list2.size();i++)
+        {
+            list3[a+i]=list2[i];
+        }
+        system.debug('merge list= '+list3);
+    }
+}
+*/
+/*
+public class newlist {
+    public void newlist()
+    {
+        integer i,j,count;
+        list<integer> unique  = new list<integer>{10,210,310,100,5,10};
+  for (i= 0; i<unique.size(); i++)
+        {
+       count = 0;
+  for (j= 0; j<unique.size(); j++)
+{
+if(unique[i] == unique [j] ) 
+{
+count++;
+}
+}
+if(count == 1 )
+{
+System.debug( unique[i]);
+}
+}
+
+}
+}*/
+public class newlist {
+    public void newlist()
+    {
+        integer a,b,c,i;
+        list<integer> list1 = new list<integer>{10,210,310,20};
+        
+             a=list1.size();
+             b=a/2;
+        list<integer>list2 = new integer[b];
+        list<integer>list3 = new integer[b];
+        for (i=0;i<=list2.size();i++)
+        {
+            list2[i]=list1[i];
+        }
+        for(i=0;i<list3.size();i++)
+        {
+            list3[i]=list1[i+b];
+        }
+        system.debug('list A= '+list2);
+        system.debug('list B= '+list3);
+    }
+}

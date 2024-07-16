@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// var num = 12;
+    //   var num = parseInt(prompt("choose option..."));
+
+    //    switch(num){
+    //     case 12:
+    //         document.write("option one....");
+    //         break;
+    //     case 20:
+    //         document.write("option two...");
+    //         break;
+    //     case 30:
+    //         document.write("option three...");
+    //         break;
+    //     case 14:
+    //         document.write("option four...");
+    //         break;
+
+    //     default :
+    //         document.write("this default...");
+    //         break;
+    //    }
+
+
+        // switch(num%2){// (case value == switch option)
+        //     case 0:
+        //         document.write("Even..");
+        //         break;
+
+        //     case 1:
+        //         document.write("Odd..");
+        //         break; 
+        //     case 2:
+        //         document.write("Even..");
+        //         break;   
+        //     // default :
+        //     //     document.write("Odd...");
+        //     //     break;
+        // }
+
+//        var num = prompt("Enter only single character...");
+    
+            // switch(num){
+            //     case 'a':
+            //     case 'A':
+            //     case 'e':
+            //     case 'E':
+            //     case 'i':
+            //     case 'I':
+            //     case 'o':
+            //     case 'O':
+            //     case 'u':
+            //     case 'U':
+            //         document.write("Vowel...");
+            //         break;
+            //     default:
+            //         document.write("Consonent...");  
+            //         break;      
+            // }
+
+// var num = 2;
+var num = parseInt(prompt("enter number for check..."));
+            switch(num%3){
+                case 0:
+                    switch(num%5){
+                      case 0:
+                        document.write("divisible by both...");
+                        break;
+                      default:
+                        document.write("divisible by only 3...");  
+                        break;
+                    } 
+                break;    
+                default: 
+                    switch(num%5){
+                      case 0:
+                        document.write("divisible by 5...");
+                        break;
+                      default:
+                        document.write("not divisible by 3 and 5...");
+                        break;  
+                    }
+                    break;
+            }
+
+    </script>
+</body>
+</html>

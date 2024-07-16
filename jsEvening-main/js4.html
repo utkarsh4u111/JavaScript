@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div id="d1"></div>
+
+<script>
+
+        // var a = 10;
+        // var student = {
+        //     firstName : "ABC", 
+        //     lastName : "XYZ", 
+        //     age : "17"};
+
+            // document.write(a+"<br>");
+            // document.write(student+"<br>");
+            // document.write(student.firstName+"<br>"+student.lastName+"<br>"+student.age);
+            //document.write(student.lastName);
+            //document.write(student.age);
+
+            //var num = 20;
+            // var num1 = 21;
+            //var numbers = [2,9,3,87,83];//array
+
+            //document.write(numbers);
+
+            // var numbers = [2,9,3,87,83,'A'];
+            // var numbers = [2,9,3,87,83,'1A'];
+            //var numbers = [2,9,3,87,83];
+            // document.write(numbers);
+            //document.write(numbers[3]);
+
+            
+/*
+
+i=0 *
+i=1 * *
+i=2 * * *
+i=3 * * * *
+    j j j j
+    0 1 2 3
+
+
+
+*/
+
+            // for(var i=0; i<=5; i++){
+            //     for(var j=0; j<=i; j++){
+            //         document.write("* ");
+            //     }
+            //     document.write("<br>");
+            // }
+
+/*
+i=1 1
+i=2 1 2
+i=3 1 2 3
+i=4 1 2 3 4 
+    j j j j
+    1 2 3 4
+
+*/
+                // for(var i=1; i<=4; i++){
+                //     for(var j=1; j<=i; j++){
+                //         document.write(j+" ");
+                //     }
+                //     document.write("<br>");
+                // }
+
+/*
+    j j j j j j           
+    0 1 2 3 4 5
+i=0 * * * * * *
+i=1 * * * * *
+i=2 * * * *
+i=3 * * *
+i=4 * *
+i=5 *
+
+*/
+
+
+// for(var i=0; i<=6; i++){
+//     for(var j=0; j<=6-i; j++){
+//         document.write("* ");
+//     }
+//     document.write("<br>");
+// }
+
+/*
+12345
+1234
+123
+12
+1
+
+
+i=1 * 
+i=2 # * 
+i=3 * # *
+i=4 # * # *
+    j j j j
+    1 2 3 4
+
+    (i+j)%2==0 -> *
+
+*/
+// yoo.sony9@gmail.com
+        // for(var i=1; i<=4; i++){
+        //     for(var j=1; j<=i; j++){
+        //         if((i+j)%2 ==0){
+        //             document.write("* ");
+        //         }else{
+        //            document.write("# "); 
+        //         }
+
+        //     }
+        //     document.write("<br>");
+        // }
+
+//===============================================================
+
+// for-of => values....
+
+// var ar = [3,9,4,85,76];
+    //    0 1 2 3  4
+
+//     document.write(ar[0]);
+//     document.write(ar[1]);
+//     document.write(ar[2]);    
+//     document.write(ar[3]);
+//     document.write(ar[4]);
+    
+
+
+// for(var i in ar){
+//     document.write(i + " " +ar[i]+"<br>");
+// }
+
+// for(var i of ar){
+//     document.write(i+" <br>");
+// }
+//===============================================================
+// for-in => keys....
+
+// var student = {
+//             firstName : "ABC", 
+//             lastName : "XYZ", 
+//             age : "17"
+//         };
+
+// for(var i in student){
+//     document.write(i+" "+student[i]+"<br>");
+// }
+
+/*
+    j j j j j
+    0 1 2 3 4
+i=0 * # * # *
+i=1 # * # *
+i=2 * # *
+i=3 # *
+i=4 *
+
+
+*/
+
+// for(var i=4; i>=0; i--){
+//     for(var j=4; j>=4-i; j--){
+//         if((i+j)%2==0){
+//                 document.write("* ");
+//         }else{
+//             document.write("# ");
+//         }
+//     }
+//     document.write("<br>");
+// }
+//========================================
+// var i=0;
+// while(i<=4){
+
+//     var j=0;
+//     while(j<=i){
+//         document.write("* ");
+//         j++;
+//     }
+//     document.write("<br>");
+//     i++;
+// }
+
+/*
+
+   *
+  * *
+ * * *
+* * * *
+ * * *
+  * *
+   *
+
+
+
+*/
+
+
+// for(var i=0; i<=5; i++){
+//     for(var k=0; k<=6-i; k++){
+//         document.write("&nbsp");
+//     }
+//     for(var j=0; j<=i; j++){
+//         document.write("*");
+//     }
+//     document.write("<br>");
+// }
+// for(var i=4; i>=0; i--){
+//     for(var k=0; k<=6-i; k++){
+//         document.write("&nbsp");
+//     }
+//     for(var j=0; j<=i; j++){
+//         document.write("*");
+//     }
+//     document.write("<br>");
+// }
+
+//String.....
+
+ var s = "ancbd";
+// var s1 = 'amcvnjcnv';
+// var student = {firstName : "ABC", age : 17};
+// document.write(typeof(s)+"<br>");
+// document.write(typeof(s1)+"<br>");
+// document.write(typeof(student));
+
+// document.write(s.toUpperCase());
+// var ch = s1.charAt(2);
+// document.write(ch);
+// var s3 = s1;
+// var s4 = s3.replace('c','x');
+// document.write(s4);
+
+// var s5 = s.split(0,2);
+// document.write(s5);
+
+// var r = s.slice(0,2);
+// document.write(r);
+
+//arrow function...->
+
+function fun(){
+    document.write("hello");
+}
+
+var a = () => {return "hello"};
+
+
+</script>
+
+<script src="hw.js"></script>
+</body>
+</html>

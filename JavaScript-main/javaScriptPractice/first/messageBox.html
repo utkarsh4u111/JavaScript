@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //(1) alert("How are you..?");
+        //var message = "My name is ABC";
+        //alert(message);
+
+        //(2) prompt :- user se input lene ke liye 
+        //var name = prompt("enter your name...");
+        //alert("hello "+name);
+
+        //(3) confirm :- yes or no / choice
+        //var ans = confirm("Are you sure, you want to do this ?");
+        //alert(ans);
+        // if(ans==true){
+        //     location.href = "https://www.google.com";
+        // }
+        // else{
+        //     alert("Not navigating to google..");
+        // }
+
+        //console print :- log,warn,table,error,time,clear,info
+          console.log("Hi");
+          console.warn("who are you");
+          console.error("my name is error");
+          console.info("information");  
+          //console.clear();
+
+          setTimeout(function(){
+            console.log("clearing..");
+            console.clear();
+          }, 3000);
+
+          let student = {
+            name : "ABC",
+            roll : "101",
+            class : "12"
+          } 
+          console.log(student);
+          console.log(student.name);
+          console.table(student);
+    </script>
+</body>
+</html>

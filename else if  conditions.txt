@@ -1,0 +1,42 @@
+Ladder if else 
+
+In this of conditional statement more then two condition if condition of if statement is true then statement of 
+if block will execute & print, if condition of if block is not true then program control will go to else if block
+& check the condition if condition of else if block is true then statement of else if block will execute & print
+if not true then next program control will go to else block & execute the statement of else block & print.
+
+Syntax 
+if(condition)
+{
+statement
+}
+else if(condition)
+{
+statement
+}
+else if(condition)
+{
+statement
+}
+else
+{
+statement
+}
+
+Wap to print middle number in three numbers.
+
+Write a program to check username & password is valid or invalid, if valid both then print username & password
+is valid , if username valid & password invalid then print valid username & invalid password, if username invalid
+& password valid then print invalid username & valid password, & if both invalid then print username & password
+invalid?
+
+Wap to check entered character is alphabet,numeric or symbol?
+
+Wap to check number is divisible by 3,5 or 9, if divisible by 3 then print divisible by 3, if divisible by 5 then print
+divisible by 5, if divisible by 9 then print divisible by 9, if divisible by 3 & 5 then print divisible by 3 & 5,
+if divisible by 3 & 9 then print divisible by 3 & 9, if divisible by 5 & 9 then print divisible by 5 & 9
+if divisible by all then print divisible by all, & not divisible by all then print not divisible by any.
+
+Wap to check prime number?
+
+Wap to check greatest number among four numbers?

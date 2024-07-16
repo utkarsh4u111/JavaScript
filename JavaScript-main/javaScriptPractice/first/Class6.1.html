@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script type="text/javascript">
+      function fun1(data) {
+        r1 = data;
+        document.getElementById("d1").innerHTML = r1 + r2;
+      }
+      function fun2(data) {
+        r2 = data;
+        document.getElementById("d1").innerHTML = r1 + r2;
+      }
+    </script>
+  </head>
+  <body>
+    <select id="s1" onchange="fun1(this.value)">
+      <option>Ind</option>
+      <option>Pak</option>
+      <option>Nepal</option>
+      <option>Sri</option>
+    </select>
+
+    <select id="s2" onchange="fun2(this.value)">
+      <option>MP</option>
+      <option>POK</option>
+      <option>kathmandu</option>
+      <option>shree jay vardhne</option>
+    </select>
+    <div id="d1"></div>
+  </body>
+</html>

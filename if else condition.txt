@@ -1,0 +1,288 @@
+/*public class condition {
+
+
+    public void condition()
+    {
+         integer sal=8000;
+         if(sal<10000)
+           sal=sal+500;
+         System.debug(sal);
+    }
+
+
+}*/
+
+/*public class CalculateMarks
+{
+    public void calculatemarks()
+    {
+          
+          integer mark,g;
+          if(mark>=28 && mark<33)
+          {
+            g = 33-mark; 
+            mark =mark+g;
+            System.debug('Grace marks is '+g);
+           }
+          System.debug('mark is '+mark);
+            
+
+    }
+
+
+} */
+    
+/*public class checksq
+{
+    integer num =5;
+    public void checksq()
+    {
+        if(math.mod(num,2)==0)
+            system.debug(num*num*num);
+        else
+        system.debug(num*num);
+            
+            
+    }
+        
+} */
+/*
+public class greatest //nested if else
+{
+    integer a=2,b=3,c=4;
+    public void greatest()
+    {
+        if(a>b)
+         {
+             if(a>c)
+             System.debug('a is greater');
+             else
+             System.debug('c is greater');
+
+
+         }
+        else
+        {
+           if(b>c)
+           System.debug('b is greatest');
+           else
+           System.debug('c is greatest'); 
+
+        }
+
+    }
+
+
+}*/        
+    
+/*public class Greatest
+{
+
+public void Greatest()
+{
+
+integer a=10000,b=2000,c=3000,d=4000;
+
+if(a>b)
+{
+    if(a>c)
+    {
+         if(a>d)
+         System.debug('a is greatest');
+        else
+         System.debug('d is greatest');
+      
+    }
+    else
+    {
+       if(c>d)
+      System.debug('c is greatest');
+      else
+       System.debug('d is greatest');
+    }
+
+
+}
+else
+{
+    if(b>c)
+    {
+        if(b>d) 
+        System.debug('b is greatest');
+        else
+        System.debug('d is greatest');  
+    }
+
+   else
+   {
+       
+       if(c>d)
+      System.debug('c is greatest');
+      else
+       System.debug('d is greatest');
+    }
+
+
+}
+
+
+}
+}
+*/
+
+/*public class vc{
+    string ch='i';
+    public void vc()
+    {
+        if(ch=='a')
+            system.debug('vowel');
+    
+        else
+        {
+            if(ch=='e')
+                system.debug('vowel');
+            else
+            {
+                if(ch=='i')
+                    system.debug('vowel');
+                else
+                {
+                    if(ch=='o')
+                    system.debug('vowel');
+                    else
+                    {
+                        if(ch=='u')
+                        system.debug('vowel');
+                        else
+                        system.debug('consonant');
+                     
+                    }
+                }
+                    
+            }
+        }
+ 
+    }
+}*/
+/*
+public class Eligible
+{
+  public void Eligible()
+  {
+      integer age=21;
+      String stream = 'IT';
+      if(age>18)
+      {
+            if(stream=='CS')
+             {
+
+                   System.debug('You are eligible');
+             }
+           else
+            {
+                  System.debug('NON CS'); 
+            }
+ 
+      }
+    else
+     {
+            System.debug('Age should be above 18+');
+     }
+        
+    }
+  }*/
+
+/*public class greatest //WAP to check the greatest number using Ladder if-else?
+{
+public void greatest()
+{
+   integer a=10000,b=3000,c=20000;
+   if(a>b && a>c)
+   System.debug('a is greatest');
+   else if(b>c)
+   System.debug('b is greatest');
+   else
+   System.debug('c is greatest'); 
+  
+}
+
+}
+*/
+
+//WAP to check greatest using four different numbers?
+
+/*public class Greatest
+{
+public void Greatest()
+{
+
+integer a=1000,b=2000,c=3000,d=4000;
+
+if(a>b && a>c && a>d)   
+System.debug('a is greatest');
+else if (b>c && b>d)   
+System.debug('b is greatest');
+else if(c>d)        
+System.debug('c is greatest');
+else
+System.debug('d is greatest');
+}
+}
+*/
+//WAP to check vowel and consonant using Ladder if--else:-
+/*public class checkvc
+{
+    public void checkvc()
+    { 
+        string ch= 'u';
+        String s= ''; 
+       if(ch=='a')
+          s = 'Vowel';
+       else if(ch=='e')
+          s = 'Vowel';
+       else if(ch=='i')
+          s = 'Vowel';
+       else if(ch=='o')
+          s = 'Vowel';
+       else if(ch=='u')
+          s = 'Vowel';
+       else
+          s = 'Consonent';
+     System.debug(s);
+  }      
+}
+*/
+//) Multiple If:-We can write more than one if statement to solve multiple conditions with multiple results.
+
+//WAP to check divisibility of numbers that number is divisible by 3,5 and 9 with all combinations?
+
+/*public class divisible
+{
+    public void divisible()
+    {
+        integer num=27;
+if(math.mod(num,3)==0)
+System.debug('Divisible by 3');
+if(math.mod(num,5)==0)
+System.debug('Divisible by 5');
+if(math.mod(num,9)==0)
+System.debug('Divisible by 9');
+    }
+}*/
+
+/*public class display
+{
+    public void display()
+{
+string ch='k';
+  if(ch=='y')
+   System.debug('Yes');
+  else if(ch=='n')
+   System.debug('NO');
+  else if(ch=='c')
+   System.debug('Cancel');
+   else
+     System.debug('Other');
+}
+}    
+*/

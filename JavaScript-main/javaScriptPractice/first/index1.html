@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>This is java Script</h1>
+    <button>click on me</button>
+    <script>
+        //internal js
+        console.log("Hey this is internal server.");
+
+        //window: alert
+        let message="How are you...?";
+        //(1) window.alert(message);
+        // alert(message);
+
+        //(2) prompt();
+        // prompt("type your name....");
+        // let name=prompt("enter your name");
+        // alert("Hello "+name);
+
+        //confirm -> yes or no ka option dikhata hai....
+        // let answer = confirm("Are you sure, you want to do this?");
+        // // alert(answer);
+        // if(answer==true){
+        //     location.href = "https://www.google.com";
+        // }else{
+        //     alert("not navigetting to google");
+        // }
+
+        //console per message dene ke liye hum console object use krte hai. functions eg = (log, info, warn, error, table, time, clear etc)
+        console.log("I am log");
+        console.warn("I warn you");
+        console.error("My name is error");
+        console.info("I am Information");
+        //console.clear();
+        // setTimeout(function() {
+        //     console.clear();
+        // }, 3000);
+
+        let student = {
+            name : "ABC",
+            address : "Indore",
+            Mob : 19283    
+        }
+        console.log(student);
+        console.log(student.name);
+
+        //table form me show krna hai to...
+        console.table(student);
+
+        document.write("welcome");
+    </script>
+</body>
+</html>

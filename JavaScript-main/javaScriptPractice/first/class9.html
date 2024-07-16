@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //patterns
+
+      /*
+                1
+                1 2
+                1 2 3
+                1 2 3 4
+
+
+                1 2 3 4 5
+                1 2 3 4
+                1 2 3
+                1 2
+                1
+
+                *
+                * *
+                * * *
+                * * * *
+                * * * * *
+                A
+                A B
+                A B C
+                A B C D
+
+
+                A B C D
+                a b c
+                A B
+                a
+
+                A 
+                B a 
+                C b A
+                D c B a
+
+                 *
+                * *
+               * * *
+              * * * *
+               * * *
+                * *
+                 * 
+                 
+                 *
+                 # *
+                 * # *
+                 # * # *
+                
+                * # * # *
+                # * # *
+                * # *
+                # *
+                *
+
+                
+
+            */
+
+      // for(var i=1; i<=5; i++){
+      //        for(var j=1; j<=i; j++){
+      //             document.write(j+" ");
+      //        }
+      //        document.write("<br>");
+      // }
+
+      // for(var i=5; i>=1; i--){
+      //     for(var j=1; j<=i; j++){
+      //         document.write(j+" ");
+      //     }
+      //     document.write("<br>");
+      // }
+
+      // for(var i=0; i<5; i++){
+      //     for(var j=0; j<=i; j++){
+      //         document.write("* ");
+      //     }
+      //     document.write("<br>");
+      // }
+
+      // for(var i=65; i<69; i++){
+      //     for(var j=65; j<=i; j++){
+      //         var ch=" ";
+
+      //         ch = ch + String.fromCharCode(j) + " ";
+      //         document.write(ch);
+
+      //     }
+      //     document.write("<br>");
+      // }
+
+      // for(var i = 69; i>=65; i--){
+      //     for(var j = 65; j<=i; j++){
+      //         var ch=" ";
+      //         ch = ch + String.fromCharCode(j)+" ";
+      //         document.write(ch);
+      //     }
+      //     document.write("<br>");
+      // }
+
+      // for(var i=69; i>=65; i--){
+      //     for(var j=65; j<=i; j++){
+      //         var ch = " ";
+
+      //         if(i%2==0){
+      //             ch = ch + String.fromCharCode(j+32)+"&nbsp ";
+      //             document.write(ch+" ");
+      //         }else{
+      //             ch = ch + String.fromCharCode(j);
+      //             document.write(ch+" ");
+      //         }
+
+      //     }
+      //     document.write("<br>");
+      // }
+
+      // for(var i=65; i<=69; i++){
+      //     for(var j=65; j<=i; j++){
+      //         var ch = " ";
+
+      //         if(j%2==0){
+      //             ch = ch + String.fromCharCode(j+32)+"&nbsp ";
+      //             document.write(ch+" ");
+      //         }else{
+      //             ch = ch + String.fromCharCode(j);
+      //             document.write(ch+" ");
+      //         }
+
+      //     }
+      //     document.write("<br>");
+      // }
+
+      // for(var i=1; i<=5; i++){
+      //     for(var j=1; j<=i; j++){
+      //         if((i+j)%2==0){
+      //             document.write("* ");
+      //         }else{
+      //             document.write("# ");
+      //         }
+      //     }
+      //     document.write("<br>");
+      // }
+
+      // for(var i=5; i>=1; i--){
+      //     for(var j=1; j<=i; j++){
+      //         if((i+j)%2==0){
+      //             document.write("* ");
+      //         }else{
+      //             document.write("# ");
+      //         }
+      //     }
+      //     document.write("<br>");
+      // }
+
+      //diamond...
+      var row = 5;
+      for (var i = 1; i <= row; i++) {
+        for (var j = 1; j <= row - i; j++) {
+          document.write(" &nbsp");
+        }
+        for (var k = 1; k <= i; k++) {
+          document.write("* ");
+        }
+        document.write("<br>");
+      }
+
+      for (var i = row - 1; i >= 1; i--) {
+        for (var j = 1; j <= row - i; j++) {
+          document.write("&nbsp");
+        }
+        for (var k = 1; k <= i; k++) {
+          document.write("* ");
+        }
+        document.write("<br>");
+      }
+    </script>
+  </body>
+</html>
